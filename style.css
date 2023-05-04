@@ -1,0 +1,164 @@
+/*Colocamos o header (cabeçalho), cor (azul claro)*/
+header {
+    background-color: #B0C4DE;
+}
+
+/*Colocamos a Terra no header, definimos a largura e altura usando o class="Terra"*/
+.Terra {
+    width: 100px;
+    height: 100px;
+}
+
+/*Colocamos os links das nossas páginas em sequência*/
+nav li {
+    display: inline;
+    margin: 220px;
+    text-align: center;
+}
+
+/*Colocamos a cor de fundo azul escuro e colocamos grid*/
+body {
+    background-color: rgb(30, 104, 165);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "aa aa aa"
+        "bb bb bb"
+        "cc cc cc";
+}
+
+/*Header*/
+.cabeça {
+    grid-area: aa;
+}
+
+/*Div*/
+.corpo {
+    grid-area: bb;
+    background-color: #DCDCDC;
+}
+
+/*Footer*/
+.pernas {
+    grid-area: cc;
+}
+
+/*Centralizamos o título e colocamos na cor azul*/
+h1 {
+    text-align: center;
+    color: rgb(30, 104, 165);
+}
+
+/*Centralizamos o subtítulo e colocamos na cor azul*/
+h2 {
+    text-align: center;
+    color: rgb(30, 104, 165);
+}
+
+/*Deixamos o fundo mais organizado*/
+div {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*Deixamos os parágrafos mais organizados*/
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Centralizamos as imagens utilizando o class="imagem"*/
+.imagem {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Centralizamos a fonte para ficar em baixo das imagens na medida certa usando o class="fonte"*/
+.fonte {
+    text-align: center;
+}
+
+/*Deixamos as listas mais organizadas*/
+li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*Centralizamos os textos que estão no footer*/
+h3 {
+    text-align: center;
+}
+
+/*Rodapé onde colocamos as informações e colocamos na cor azul claro*/
+footer {
+    background-color: #B0C4DE;
+}
+
+/*Quando você passa com o mouse no texto, ele ficará destacando com a cor preta e com as letras brancas*/
+.edu:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+/*Centralizamos as imagens utilizando o class="imagem e colocamos uma borda em volta"*/
+.imagemGALEOPITECO {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10%;
+    transition: 2s;
+    width: 500px;
+    height: 300px;
+}
+
+/*Quando você passa com o mouse sob a imagem, ela fará uma transição*/
+.imagemGALEOPITECO:hover {
+    width: 500px;
+    height: 500px;
+}
+
+/*Centralizamos as imagens utilizando o class="imagem e colocamos uma borda em volta"*/
+.imagemAXALOTE {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10%;
+    transition: 2s;
+    width: 500px;
+    height: 300px;
+}
+
+/*Quando você passa com o mouse sob a imagem, ela fará uma transição*/
+.imagemAXALOTE:hover {
+    width: 500px;
+    height: 500px;
+}
+
+/*Centralizamos as imagens utilizando o class="imagem e colocamos uma borda"*/
+.imagemDUGONGO {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10%;
+    transition: 2s;
+    width: 500px;
+    height: 300px;
+}
+
+/*Quando você passa com o mouse sob a imagem, ela fará uma transição*/
+.imagemDUGONGO:hover {
+    width: 500px;
+    height: 500px;
+}
+
+/* Aqui Mudei o estilo da letra*/
+.lucas {
+    font-family: sans-serif;
+}
+
+/*Mudei o estilo da palavro do H3*/
+.luc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
