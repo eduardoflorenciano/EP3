@@ -153,12 +153,12 @@ footer {
     height: 500px;
 }
 
-/* Aqui Mudei o estilo da letra*/
+/*Mudamos o estilo da letra*/
 .lucas {
     font-family: sans-serif;
 }
 
-/*Mudei o estilo da palavro do H3*/
+/*Mudamos o estilo das palavras do H3*/
 .luc {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
